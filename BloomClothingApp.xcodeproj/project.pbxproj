@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE95EDBC2BB7273500E4DCC0 /* BloomClothingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EDBB2BB7273500E4DCC0 /* BloomClothingAppApp.swift */; };
+		CE95EDBE2BB7273500E4DCC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EDBD2BB7273500E4DCC0 /* ContentView.swift */; };
+		CE95EDC02BB7273700E4DCC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE95EDBF2BB7273700E4DCC0 /* Assets.xcassets */; };
+		CE95EDC32BB7273700E4DCC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE95EDC22BB7273700E4DCC0 /* Preview Assets.xcassets */; };
+		CE95EDCD2BB7273700E4DCC0 /* BloomClothingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EDCC2BB7273700E4DCC0 /* BloomClothingAppTests.swift */; };
+		CE95EDD72BB7273700E4DCC0 /* BloomClothingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EDD62BB7273700E4DCC0 /* BloomClothingAppUITests.swift */; };
+		CE95EDD92BB7273700E4DCC0 /* BloomClothingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EDD82BB7273700E4DCC0 /* BloomClothingAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE95EDC92BB7273700E4DCC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE95EDB02BB7273500E4DCC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE95EDB72BB7273500E4DCC0;
+			remoteInfo = BloomClothingApp;
+		};
+		CE95EDD32BB7273700E4DCC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE95EDB02BB7273500E4DCC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE95EDB72BB7273500E4DCC0;
+			remoteInfo = BloomClothingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE95EDB82BB7273500E4DCC0 /* BloomClothingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloomClothingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE95EDBB2BB7273500E4DCC0 /* BloomClothingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomClothingAppApp.swift; sourceTree = "<group>"; };
+		CE95EDBD2BB7273500E4DCC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE95EDBF2BB7273700E4DCC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE95EDC22BB7273700E4DCC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE95EDC82BB7273700E4DCC0 /* BloomClothingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloomClothingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE95EDCC2BB7273700E4DCC0 /* BloomClothingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomClothingAppTests.swift; sourceTree = "<group>"; };
+		CE95EDD22BB7273700E4DCC0 /* BloomClothingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloomClothingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE95EDD62BB7273700E4DCC0 /* BloomClothingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomClothingAppUITests.swift; sourceTree = "<group>"; };
+		CE95EDD82BB7273700E4DCC0 /* BloomClothingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomClothingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE95EDB52BB7273500E4DCC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE95EDC52BB7273700E4DCC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE95EDCF2BB7273700E4DCC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE95EDAF2BB7273500E4DCC0 = {
+			isa = PBXGroup;
+			children = (
+				CE95EDBA2BB7273500E4DCC0 /* BloomClothingApp */,
+				CE95EDCB2BB7273700E4DCC0 /* BloomClothingAppTests */,
+				CE95EDD52BB7273700E4DCC0 /* BloomClothingAppUITests */,
+				CE95EDB92BB7273500E4DCC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE95EDB92BB7273500E4DCC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE95EDB82BB7273500E4DCC0 /* BloomClothingApp.app */,
+				CE95EDC82BB7273700E4DCC0 /* BloomClothingAppTests.xctest */,
+				CE95EDD22BB7273700E4DCC0 /* BloomClothingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE95EDBA2BB7273500E4DCC0 /* BloomClothingApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE95EDBB2BB7273500E4DCC0 /* BloomClothingAppApp.swift */,
+				CE95EDBD2BB7273500E4DCC0 /* ContentView.swift */,
+				CE95EDBF2BB7273700E4DCC0 /* Assets.xcassets */,
+				CE95EDC12BB7273700E4DCC0 /* Preview Content */,
+			);
+			path = BloomClothingApp;
+			sourceTree = "<group>";
+		};
+		CE95EDC12BB7273700E4DCC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE95EDC22BB7273700E4DCC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE95EDCB2BB7273700E4DCC0 /* BloomClothingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE95EDCC2BB7273700E4DCC0 /* BloomClothingAppTests.swift */,
+			);
+			path = BloomClothingAppTests;
+			sourceTree = "<group>";
+		};
+		CE95EDD52BB7273700E4DCC0 /* BloomClothingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE95EDD62BB7273700E4DCC0 /* BloomClothingAppUITests.swift */,
+				CE95EDD82BB7273700E4DCC0 /* BloomClothingAppUITestsLaunchTests.swift */,
+			);
+			path = BloomClothingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE95EDB72BB7273500E4DCC0 /* BloomClothingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE95EDDC2BB7273700E4DCC0 /* Build configuration list for PBXNativeTarget "BloomClothingApp" */;
+			buildPhases = (
+				CE95EDB42BB7273500E4DCC0 /* Sources */,
+				CE95EDB52BB7273500E4DCC0 /* Frameworks */,
+				CE95EDB62BB7273500E4DCC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloomClothingApp;
+			productName = BloomClothingApp;
+			productReference = CE95EDB82BB7273500E4DCC0 /* BloomClothingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE95EDC72BB7273700E4DCC0 /* BloomClothingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE95EDDF2BB7273700E4DCC0 /* Build configuration list for PBXNativeTarget "BloomClothingAppTests" */;
+			buildPhases = (
+				CE95EDC42BB7273700E4DCC0 /* Sources */,
+				CE95EDC52BB7273700E4DCC0 /* Frameworks */,
+				CE95EDC62BB7273700E4DCC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE95EDCA2BB7273700E4DCC0 /* PBXTargetDependency */,
+			);
+			name = BloomClothingAppTests;
+			productName = BloomClothingAppTests;
+			productReference = CE95EDC82BB7273700E4DCC0 /* BloomClothingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE95EDD12BB7273700E4DCC0 /* BloomClothingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE95EDE22BB7273700E4DCC0 /* Build configuration list for PBXNativeTarget "BloomClothingAppUITests" */;
+			buildPhases = (
+				CE95EDCE2BB7273700E4DCC0 /* Sources */,
+				CE95EDCF2BB7273700E4DCC0 /* Frameworks */,
+				CE95EDD02BB7273700E4DCC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE95EDD42BB7273700E4DCC0 /* PBXTargetDependency */,
+			);
+			name = BloomClothingAppUITests;
+			productName = BloomClothingAppUITests;
+			productReference = CE95EDD22BB7273700E4DCC0 /* BloomClothingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE95EDB02BB7273500E4DCC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CE95EDB72BB7273500E4DCC0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CE95EDC72BB7273700E4DCC0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CE95EDB72BB7273500E4DCC0;
+					};
+					CE95EDD12BB7273700E4DCC0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CE95EDB72BB7273500E4DCC0;
+					};
+				};
+			};
+			buildConfigurationList = CE95EDB32BB7273500E4DCC0 /* Build configuration list for PBXProject "BloomClothingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE95EDAF2BB7273500E4DCC0;
+			productRefGroup = CE95EDB92BB7273500E4DCC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE95EDB72BB7273500E4DCC0 /* BloomClothingApp */,
+				CE95EDC72BB7273700E4DCC0 /* BloomClothingAppTests */,
+				CE95EDD12BB7273700E4DCC0 /* BloomClothingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE95EDB62BB7273500E4DCC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE95EDC32BB7273700E4DCC0 /* Preview Assets.xcassets in Resources */,
+				CE95EDC02BB7273700E4DCC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE95EDC62BB7273700E4DCC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE95EDD02BB7273700E4DCC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE95EDB42BB7273500E4DCC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE95EDBE2BB7273500E4DCC0 /* ContentView.swift in Sources */,
+				CE95EDBC2BB7273500E4DCC0 /* BloomClothingAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE95EDC42BB7273700E4DCC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE95EDCD2BB7273700E4DCC0 /* BloomClothingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE95EDCE2BB7273700E4DCC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE95EDD92BB7273700E4DCC0 /* BloomClothingAppUITestsLaunchTests.swift in Sources */,
+				CE95EDD72BB7273700E4DCC0 /* BloomClothingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE95EDCA2BB7273700E4DCC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE95EDB72BB7273500E4DCC0 /* BloomClothingApp */;
+			targetProxy = CE95EDC92BB7273700E4DCC0 /* PBXContainerItemProxy */;
+		};
+		CE95EDD42BB7273700E4DCC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE95EDB72BB7273500E4DCC0 /* BloomClothingApp */;
+			targetProxy = CE95EDD32BB7273700E4DCC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE95EDDA2BB7273700E4DCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE95EDDB2BB7273700E4DCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE95EDDD2BB7273700E4DCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BloomClothingApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BloomClothingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE95EDDE2BB7273700E4DCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BloomClothingApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BloomClothingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE95EDE02BB7273700E4DCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BloomClothingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloomClothingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BloomClothingApp";
+			};
+			name = Debug;
+		};
+		CE95EDE12BB7273700E4DCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BloomClothingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloomClothingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BloomClothingApp";
+			};
+			name = Release;
+		};
+		CE95EDE32BB7273700E4DCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BloomClothingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloomClothingApp;
+			};
+			name = Debug;
+		};
+		CE95EDE42BB7273700E4DCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BloomClothingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloomClothingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE95EDB32BB7273500E4DCC0 /* Build configuration list for PBXProject "BloomClothingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE95EDDA2BB7273700E4DCC0 /* Debug */,
+				CE95EDDB2BB7273700E4DCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE95EDDC2BB7273700E4DCC0 /* Build configuration list for PBXNativeTarget "BloomClothingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE95EDDD2BB7273700E4DCC0 /* Debug */,
+				CE95EDDE2BB7273700E4DCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE95EDDF2BB7273700E4DCC0 /* Build configuration list for PBXNativeTarget "BloomClothingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE95EDE02BB7273700E4DCC0 /* Debug */,
+				CE95EDE12BB7273700E4DCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE95EDE22BB7273700E4DCC0 /* Build configuration list for PBXNativeTarget "BloomClothingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE95EDE32BB7273700E4DCC0 /* Debug */,
+				CE95EDE42BB7273700E4DCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE95EDB02BB7273500E4DCC0 /* Project object */;
+}
