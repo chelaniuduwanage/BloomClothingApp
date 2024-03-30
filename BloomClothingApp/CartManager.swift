@@ -1,6 +1,6 @@
 //
 //  CartManager.swift
-//  BloomApp
+//  BloomClothingApp
 //
 //  Created by User on 2024-03-29.
 //
