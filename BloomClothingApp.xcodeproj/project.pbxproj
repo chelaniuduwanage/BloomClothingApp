@@ -14,6 +14,8 @@
 		CE8784942BBC8CF80072A8E7 /* searchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784932BBC8CF80072A8E7 /* searchView.swift */; };
 		CE8784962BBC8DB20072A8E7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784952BBC8DB20072A8E7 /* WelcomeView.swift */; };
 		CE8784982BBC8E460072A8E7 /* Walking01View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784972BBC8E460072A8E7 /* Walking01View.swift */; };
+		CE87849A2BBC91F00072A8E7 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784992BBC91F00072A8E7 /* loginView.swift */; };
+		CE87849C2BBC92E10072A8E7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87849B2BBC92E10072A8E7 /* SignUpView.swift */; };
 		CE95EDBC2BB7273500E4DCC0 /* BloomClothingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EDBB2BB7273500E4DCC0 /* BloomClothingAppApp.swift */; };
 		CE95EDC02BB7273700E4DCC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE95EDBF2BB7273700E4DCC0 /* Assets.xcassets */; };
 		CE95EDC32BB7273700E4DCC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE95EDC22BB7273700E4DCC0 /* Preview Assets.xcassets */; };
@@ -26,8 +28,6 @@
 		CE95EE0B2BB72B7600E4DCC0 /* ProducteDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EDFA2BB72B7600E4DCC0 /* ProducteDetailsView.swift */; };
 		CE95EE0C2BB72B7600E4DCC0 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EDFB2BB72B7600E4DCC0 /* TabBarView.swift */; };
 		CE95EE0F2BB72B7600E4DCC0 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EDFE2BB72B7600E4DCC0 /* ProductCardView.swift */; };
-		CE95EE122BB72B7600E4DCC0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EE012BB72B7600E4DCC0 /* SignUpView.swift */; };
-		CE95EE152BB72B7600E4DCC0 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EE042BB72B7600E4DCC0 /* loginView.swift */; };
 		CE95EE1A2BB7313200E4DCC0 /* ModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EE192BB7313200E4DCC0 /* ModelItem.swift */; };
 		CE95EE1C2BB732F300E4DCC0 /* MycartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EE1B2BB732F300E4DCC0 /* MycartView.swift */; };
 		CE95EE1E2BB73AC000E4DCC0 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95EE172BB72C9F00E4DCC0 /* CartManager.swift */; };
@@ -60,6 +60,8 @@
 		CE8784932BBC8CF80072A8E7 /* searchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchView.swift; sourceTree = "<group>"; };
 		CE8784952BBC8DB20072A8E7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		CE8784972BBC8E460072A8E7 /* Walking01View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walking01View.swift; sourceTree = "<group>"; };
+		CE8784992BBC91F00072A8E7 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
+		CE87849B2BBC92E10072A8E7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		CE95EDB82BB7273500E4DCC0 /* BloomClothingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloomClothingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE95EDBB2BB7273500E4DCC0 /* BloomClothingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomClothingAppApp.swift; sourceTree = "<group>"; };
 		CE95EDBF2BB7273700E4DCC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,8 +77,6 @@
 		CE95EDFA2BB72B7600E4DCC0 /* ProducteDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProducteDetailsView.swift; path = ../../../BloomApp/BloomApp/views/ProducteDetailsView.swift; sourceTree = "<group>"; };
 		CE95EDFB2BB72B7600E4DCC0 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarView.swift; path = ../../../BloomApp/BloomApp/views/TabBarView.swift; sourceTree = "<group>"; };
 		CE95EDFE2BB72B7600E4DCC0 /* ProductCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCardView.swift; path = ../../../BloomApp/BloomApp/views/ProductCardView.swift; sourceTree = "<group>"; };
-		CE95EE012BB72B7600E4DCC0 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = ../../../BloomApp/BloomApp/views/SignUpView.swift; sourceTree = "<group>"; };
-		CE95EE042BB72B7600E4DCC0 /* loginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = loginView.swift; path = ../../../BloomApp/BloomApp/views/loginView.swift; sourceTree = "<group>"; };
 		CE95EE172BB72C9F00E4DCC0 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		CE95EE192BB7313200E4DCC0 /* ModelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelItem.swift; sourceTree = "<group>"; };
 		CE95EE1B2BB732F300E4DCC0 /* MycartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MycartView.swift; sourceTree = "<group>"; };
@@ -187,11 +187,9 @@
 		CE95EDE72BB729D000E4DCC0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CE95EE042BB72B7600E4DCC0 /* loginView.swift */,
 				CE95EDFE2BB72B7600E4DCC0 /* ProductCardView.swift */,
 				CE95EDFA2BB72B7600E4DCC0 /* ProducteDetailsView.swift */,
 				CE95EDF62BB72B7600E4DCC0 /* SearchIView.swift */,
-				CE95EE012BB72B7600E4DCC0 /* SignUpView.swift */,
 				CE95EDF82BB72B7600E4DCC0 /* SuccessMsgView.swift */,
 				CE95EDFB2BB72B7600E4DCC0 /* TabBarView.swift */,
 				CE95EE1F2BB7405E00E4DCC0 /* PaymentButtonView.swift */,
@@ -204,6 +202,8 @@
 				CE8784932BBC8CF80072A8E7 /* searchView.swift */,
 				CE8784952BBC8DB20072A8E7 /* WelcomeView.swift */,
 				CE8784972BBC8E460072A8E7 /* Walking01View.swift */,
+				CE8784992BBC91F00072A8E7 /* loginView.swift */,
+				CE87849B2BBC92E10072A8E7 /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -342,19 +342,19 @@
 				CE9CE2F92BB7FD4300408585 /* ImageSwapView.swift in Sources */,
 				CE95EE1A2BB7313200E4DCC0 /* ModelItem.swift in Sources */,
 				CE95EE0C2BB72B7600E4DCC0 /* TabBarView.swift in Sources */,
-				CE95EE122BB72B7600E4DCC0 /* SignUpView.swift in Sources */,
 				CE95EE0F2BB72B7600E4DCC0 /* ProductCardView.swift in Sources */,
 				CE95EE202BB7405E00E4DCC0 /* PaymentButtonView.swift in Sources */,
 				CE95EDF12BB72B0D00E4DCC0 /* ProductRowView.swift in Sources */,
 				CE85E56C2BB8A6F200F4BFD4 /* SignUpMsg.swift in Sources */,
 				CE8784922BBC8CA40072A8E7 /* filterView.swift in Sources */,
 				CE95EE0B2BB72B7600E4DCC0 /* ProducteDetailsView.swift in Sources */,
+				CE87849C2BBC92E10072A8E7 /* SignUpView.swift in Sources */,
 				CE8784902BBC8C4C0072A8E7 /* CheckoutView.swift in Sources */,
 				CE95EDBC2BB7273500E4DCC0 /* BloomClothingAppApp.swift in Sources */,
 				CE8784962BBC8DB20072A8E7 /* WelcomeView.swift in Sources */,
 				CE8784942BBC8CF80072A8E7 /* searchView.swift in Sources */,
-				CE95EE152BB72B7600E4DCC0 /* loginView.swift in Sources */,
 				CE95EE1E2BB73AC000E4DCC0 /* CartManager.swift in Sources */,
+				CE87849A2BBC91F00072A8E7 /* loginView.swift in Sources */,
 				CE95EE072BB72B7600E4DCC0 /* SearchIView.swift in Sources */,
 				CE8784982BBC8E460072A8E7 /* Walking01View.swift in Sources */,
 				CE95EE092BB72B7600E4DCC0 /* SuccessMsgView.swift in Sources */,
