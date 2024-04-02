@@ -18,7 +18,7 @@ struct MycartView: View {
                 .font(.custom("AmericanTypewriter", size: 25))
                 .foregroundColor(Color(red: 242/255, green: 157/255, blue: 154/255)).bold()
                                 .frame(width: 308, height: 115)
-                                .offset(y: -350)
+                                .offset(y: -375)
            
             ScrollView{
                 
