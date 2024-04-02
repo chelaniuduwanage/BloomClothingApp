@@ -81,7 +81,7 @@ struct CheckoutView: View {
                 }.offset(y:120)
                 
                 
-                NavigationLink(destination: MessageView())
+                NavigationLink(destination: SuccessMsgView())
                 {
                     Text("Pay")
                     
