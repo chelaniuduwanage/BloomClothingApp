@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct loginView: View {
-    @State private var search: String = ""
+    @State private var email: String = ""
+    @State private var password: String = ""
 
     var body: some View {
         
@@ -46,28 +47,28 @@ struct loginView: View {
                     .font(.custom("AmericanTypewriter", size: 40))
                                     .foregroundColor(Color(red: 242/255, green: 157/255, blue: 154/255))
                                     .frame(width: 308, height: 132)
-                                    .offset(y:-95)
+                                    .offset(y:-65)
                 
                 Text("Login to unlock exclusive deals and seamless")
                                 .font(Font.custom("Skranji", size: 18))
                                 .foregroundColor(Color(red: 242/255, green: 157/255, blue: 154/255))
                                 .frame(width: 364.3)
-                                .offset(y: -260)
+                                .offset(y: -230)
                 
                 Text("Shopping Experience")
                                 .font(Font.custom("Skranji", size: 18))
                                 .foregroundColor(Color(red: 242/255, green: 157/255, blue: 154/255))
                                 .frame(width: 364.3)
-                                .offset(y: -260)
+                                .offset(y: -220)
              
                 VStack{
                     
                     
                     
-                    TextField("Email",text: $search)
+                    TextField("Email",text: $email)
                         .font(.custom("Inter", size: 20))
                         .foregroundColor(Color.gray)
-                        .offset(x:120, y:-72)
+                        .offset(x:120, y:-75)
                     
                     Image(systemName: "mail")
                         .resizable()
@@ -77,7 +78,7 @@ struct loginView: View {
                         .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                     
                 }
-                TextField("Password",text: $search)
+                TextField("Password",text: $password)
                                 .font(.custom("Inter", size: 20))
                                 .foregroundColor(Color.gray)
                                 .offset(x:120, y:-25)
@@ -87,14 +88,9 @@ struct loginView: View {
                                 .resizable()
                                 .frame(width: 24, height: 24)
                                 .foregroundColor(Color.gray)
-                                .offset(x:-132, y:-60)
+                                .offset(x:-132, y:-50)
 
-                Image(systemName: "rectangle")
-                    .resizable()
-                    .frame(width: 15, height: 15)
-                    .foregroundColor(Color.gray)
-                    
-                
+               
                 Text("Remember me")
                                 .font(Font.custom("Skranji", size: 12))
                                 .foregroundColor(Color(red: 242/255, green: 157/255, blue: 154/255))
