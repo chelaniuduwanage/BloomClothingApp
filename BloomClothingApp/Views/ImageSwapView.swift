@@ -9,14 +9,14 @@ import SwiftUI
 
 struct ImageSwapView: View {
     @State private var  currentIndex = 0
-    var slides : [String] = ["Optimized-positive-woman-red-beret-trendy-blouse-smiles-holds-bags-from-clothing-stores-1024x683","WhatsApp Image 2024-03-24 at 23.40.21","portrait-excited-amazed-happy-blond-female-white-dress_1258-9289",]
+    var slides : [String] = ["420151447_769056328598473_3257663368595089040_n","5_WOMENS_FASHION_BRANDS_TO_SHOP_AT_NOON_ylQkT4m_naInkvy_KPu2Hy9_fzFsgu4_lnUCEo9","main-qimg-1d7f544942b40742391ed0f85f5e4714-lq"]
     var body: some View {
         ZStack(alignment: .bottomLeading)
         {
             ZStack(alignment: .trailing)
             {
                 Image(slides[currentIndex]).resizable()
-                    .frame(width: .infinity,height: 130)
+                    .frame(width: .infinity,height: 160)
                     .scaledToFit()
                     .cornerRadius(15)
             }

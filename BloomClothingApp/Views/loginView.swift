@@ -65,10 +65,10 @@ struct loginView: View {
                     
                     
                     
-                    TextField("Email",text: $email)
+                    TextField("cheluuduwana@gmail.com",text: $email)
                         .font(.custom("Inter", size: 20))
                         .foregroundColor(Color.gray)
-                        .offset(x:120, y:-75)
+                        .offset(x:90, y:-75)
                     
                     Image(systemName: "mail")
                         .resizable()
@@ -78,17 +78,17 @@ struct loginView: View {
                         .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                     
                 }
-                TextField("Password",text: $password)
+                TextField("...........",text: $password)
                                 .font(.custom("Inter", size: 20))
                                 .foregroundColor(Color.gray)
-                                .offset(x:120, y:-25)
+                                .offset(x:100, y:-25)
 
                             
                             Image(systemName: "lock")
                                 .resizable()
                                 .frame(width: 24, height: 24)
                                 .foregroundColor(Color.gray)
-                                .offset(x:-132, y:-50)
+                                .offset(x:-132, y:-60)
 
                
                 Text("Remember me")

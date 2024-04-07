@@ -18,7 +18,7 @@ struct searchView: View {
                 ScrollView {
                     LazyVGrid(columns: rows, spacing: 20) {
                         ForEach(filteredProducts) { product in
-                            NavigationLink(destination: ProducteDetailsView(product: product)) {
+                            NavigationLink(destination: ProductDetailView(product: product)) {
                                 ProductCardView(product: product)
                             }
                         }

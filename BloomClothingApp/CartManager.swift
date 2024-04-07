@@ -9,6 +9,7 @@ import Foundation
 
 class CartManager : ObservableObject{
     @Published private (set) var products: [Product] = []
+
     
     @Published private (set) var total: Int = 0
     

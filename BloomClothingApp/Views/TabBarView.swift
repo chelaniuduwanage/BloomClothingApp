@@ -21,19 +21,25 @@ struct TabBarView: View {
     
     @Namespace var animation
     var body: some View {
-        
             TabView(selection: $currentTab)
             {
                     HomeView()
                 Text("Notification")
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .tag(Tab.Notification)
-                Text("Cart")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .tag(Tab.Cart)
                 Text("Profile")
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .tag(Tab.Profile)
+                
+                NavigationView {
+                                searchView()
+                            }
+                            .tag(Tab.Search)
+                
+                NavigationView {
+                                FavouriteView()
+                            }
+                            .tag(Tab.Favourite)
                 
             }.overlay(
                 
@@ -92,16 +98,16 @@ struct TabBarView: View {
     }
     
     enum Tab:String, CaseIterable{
-        case Category = "circle.grid.2x2.fill"
+        case Search = "magnifyingglass"
         case Notification = "bell"
         case Home = "house"
-        case Cart = "heart"
+        case Favourite = "heart"
         case Profile = "person"
         
         
         var Tabname: String{
             switch self{
-            case.Category:
+            case.Search:
                 return ""
                 
             case.Notification:
@@ -110,7 +116,7 @@ struct TabBarView: View {
             case.Home:
                 return ""
                 
-            case.Cart:
+            case.Favourite:
                 return ""
                 
             case.Profile:
@@ -151,7 +157,23 @@ struct TabBarView: View {
 struct HomeView: View {
     
     @StateObject var cartManager = CartManager()
-
+    
+    @State private var selectedIndex: Int = 0
+      
+      private let categories = ["All", "Newly", "Pants", "Dress", "Tops", "others"]
+    
+    var filteredProducts: [Product] {
+            if selectedIndex == 0 {
+                // Show all products
+                return productList
+            } else {
+                // Filter products based on the selected category
+                let category = categories[selectedIndex]
+                return productList.filter { $0.category == category }
+            }
+        }
+        
+    
     var body: some View {
         NavigationView{
             ZStack {
@@ -173,41 +195,40 @@ struct HomeView: View {
                 label:
                     {
                         CartButton(numberOfProducts: cartManager.products.count)
-                    }.foregroundColor(.black).offset(x:150, y:-180)
+                    }.foregroundColor(.black).offset(x:150, y:-170)
                     
                     
                     Image(systemName:"contextualmenu.and.cursorarrow")    .resizable()
                         .foregroundColor(Color(red: 242/255, green: 157/255, blue: 154/255))             .scaledToFill()
                         .edgesIgnoringSafeArea(.all)
                         .frame(width:20 ,height:20)
-                        .offset(x:-150, y:-215)
+                        .offset(x:-160, y:-200)
                     
                     
                     Text("WELCOME,")
                         .font(.custom("AmericanTypewriter", size: 34))
                         .foregroundColor(Color.black)
                         .frame(width: 308, height: 115)
-                        .offset(x:-80, y: -185)
+                        .offset(x:-80, y: -200)
                     
                     Text("Bloom")
                         .font(.custom("AmericanTypewriter", size: 34))
                         .foregroundColor(Color(red: 242/255, green: 157/255, blue: 154/255)).bold()
                         .frame(width: 308, height: 12)
-                        .offset(x:-115, y: -215)
-                    HStack{
-                        
-                        Text("New Arrivals")
-                            .font(.custom("AmericanTypewriter", size: 24))
-                            .foregroundColor(Color(red: 242/255, green: 157/255, blue: 154/255)).bold()
-                            .frame(width: 308, height: 12).offset(x:-60, y:33)
-                        
-                        Spacer()
-                        
-                        Image(systemName: "circle.grid.2x2.fill").foregroundColor(.pink).offset(x:-5,y:30)
-                            
-                        
-                    }.padding(.horizontal,10)
-                    SearchIView().offset(y:-70)
+                        .offset(x:-115, y: -225)
+                    VStack {
+                                            ScrollView (.horizontal, showsIndicators: false) {
+                                                HStack {
+                                                    ForEach(0 ..< categories.count) { i in
+                                                        Button(action: { selectedIndex = i }) {
+                                                            CategoryView(isActive: selectedIndex == i, text: categories[i])
+                                                        }
+                                                    }
+                                                }
+                                                .padding()
+                                            }
+                                        }
+                                        .offset(y: -10)
                     
                     Button(action: {
                     }) {
@@ -220,7 +241,7 @@ struct HomeView: View {
                             .cornerRadius(30)
                             .padding(15)
                             .shadow(radius: 25)
-                    }.offset(x:115, y:-370)
+                    }.offset(x:115, y:-360)
                     
                     
                     
@@ -228,14 +249,14 @@ struct HomeView: View {
                 
                 VStack
                 {
-                    ImageSwapView()
+                    ImageSwapView().offset(y:-50)
                     
                 }.offset(y:-30)
                 
                 VStack{
                     ScrollView(.horizontal, showsIndicators: false){
                         HStack(spacing:15) {
-                            ForEach(productList, id: \.id) { product in
+                            ForEach(filteredProducts, id: \.id) { product in
                                 ProductCardView(product: product)
                                     .environmentObject(cartManager)
                             }
@@ -246,10 +267,35 @@ struct HomeView: View {
                 
             }
         }.navigationBarBackButtonHidden(true)
-        
+           
     }
 }
 #Preview {
     HomeView()
+}
+
+struct CategoryView: View {
+    let isActive: Bool
+    let text: String
+    
+    var body: some View {
+        HStack(spacing: 4) {
+            Text(text)
+                .font(.system(size: 18))
+                .fontWeight(.bold)
+                .foregroundColor(isActive ? Color.white : Color.white)
+                .padding(.horizontal, 8)
+                .padding(.vertical, 4)
+                .background(isActive ? Color.pink : Color(red: 242/255, green: 157/255, blue:154/255))
+                .shadow(radius: 20)
+                .clipShape(Capsule())
+            
+            if isActive {
+                Image(systemName: "checkmark")
+                    .foregroundColor(.white)
+            }
+        }
+        .padding(.trailing).offset(x:5)
+    }
 }
 

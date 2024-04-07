@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "5_WOMENS_FASHION_BRANDS_TO_SHOP_AT_NOON_ylQkT4m_naInkvy_KPu2Hy9_fzFsgu4_lnUCEo9.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
