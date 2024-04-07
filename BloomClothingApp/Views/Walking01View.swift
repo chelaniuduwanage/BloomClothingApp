@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Walking01View: View {
-    @EnvironmentObject var cartManager : CartManager
+//    @EnvironmentObject var cartManager : CartManager
     var body: some View {
         NavigationView{
             

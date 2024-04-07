@@ -2,7 +2,7 @@
 //  ProductDetailView.swift
 //  BloomClothingApp
 //
-//  Created by Hansani Ruwan Kumari on 2024-04-07.
+//  Created by Chelani Hansika on 2024-04-07.
 //
 
 import SwiftUI

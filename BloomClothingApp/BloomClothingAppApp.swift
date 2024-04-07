@@ -12,7 +12,7 @@ struct BloomClothingAppApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                searchView()
+               WelcomeView()
             }
         }
     }
